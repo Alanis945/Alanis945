@@ -1,0 +1,10 @@
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03-Area y Perimetro de un Circulo.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03_Area_y_Perimetro_de_un_Circulo.Form1.resources
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03_Area_y_Perimetro_de_un_Circulo.Properties.Resources.resources
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03-Area y Perimetro de un Circulo.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03-Area y Perimetro de un Circulo.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\bin\Debug\Practica_03-Area y Perimetro de un Circulo.exe.config
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\bin\Debug\Practica_03-Area y Perimetro de un Circulo.exe
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\bin\Debug\Practica_03-Area y Perimetro de un Circulo.pdb
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03-Area y Perimetro de un Circulo.exe
+C:\Users\L480\source\repos\Practica_03-Area y Perimetro de un Circulo\obj\Debug\Practica_03-Area y Perimetro de un Circulo.pdb
