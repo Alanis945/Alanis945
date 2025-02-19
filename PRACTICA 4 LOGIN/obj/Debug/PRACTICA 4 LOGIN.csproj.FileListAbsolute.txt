@@ -1,0 +1,11 @@
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\bin\Debug\PRACTICA 4 LOGIN.exe.config
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\bin\Debug\PRACTICA 4 LOGIN.exe
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\bin\Debug\PRACTICA 4 LOGIN.pdb
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA 4 LOGIN.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA_4_LOGIN.Form1.resources
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA_4_LOGIN.Properties.Resources.resources
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA 4 LOGIN.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA 4 LOGIN.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA 4 LOGIN.exe
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA 4 LOGIN.pdb
+C:\Users\L480\source\repos\PRACTICA 4 LOGIN\obj\Debug\PRACTICA_4_LOGIN.Formulario_2.resources
