@@ -1,0 +1,11 @@
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\bin\Debug\practica 5 sistema de calificaciones.exe.config
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\bin\Debug\practica 5 sistema de calificaciones.exe
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\bin\Debug\practica 5 sistema de calificaciones.pdb
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica 5 sistema de calificaciones.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica_5_sistema_de_calificaciones.Form1.resources
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica_5_sistema_de_calificaciones.Form2.resources
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica_5_sistema_de_calificaciones.Properties.Resources.resources
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica 5 sistema de calificaciones.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica 5 sistema de calificaciones.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica 5 sistema de calificaciones.exe
+C:\Users\L480\source\repos\practica 5 sistema de calificaciones\obj\Debug\practica 5 sistema de calificaciones.pdb
