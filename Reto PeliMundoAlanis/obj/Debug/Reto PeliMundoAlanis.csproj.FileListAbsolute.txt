@@ -1,0 +1,14 @@
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\bin\Debug\Reto PeliMundoAlanis.exe.config
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\bin\Debug\Reto PeliMundoAlanis.exe
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\bin\Debug\Reto PeliMundoAlanis.pdb
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto PeliMundoAlanis.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Form1.resources
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Form2.resources
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Form3.resources
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Form4.resources
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Properties.Resources.resources
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto PeliMundoAlanis.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto PeliMundoAlanis.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto PeliMundoAlanis.exe
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto PeliMundoAlanis.pdb
+C:\Users\L480\source\repos\Reto PeliMundoAlanis\obj\Debug\Reto_PeliMundoAlanis.Form5.resources
