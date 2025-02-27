@@ -1,0 +1,11 @@
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen de segundo parcial.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen_de_segundo_parcial.Form1.resources
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen_de_segundo_parcial.Form2.resources
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen_de_segundo_parcial.Properties.Resources.resources
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen de segundo parcial.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen de segundo parcial.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\Examen de segundo parcial\bin\Debug\Examen de segundo parcial.exe.config
+C:\Users\L480\source\repos\Examen de segundo parcial\bin\Debug\Examen de segundo parcial.exe
+C:\Users\L480\source\repos\Examen de segundo parcial\bin\Debug\Examen de segundo parcial.pdb
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen de segundo parcial.exe
+C:\Users\L480\source\repos\Examen de segundo parcial\obj\Debug\Examen de segundo parcial.pdb
