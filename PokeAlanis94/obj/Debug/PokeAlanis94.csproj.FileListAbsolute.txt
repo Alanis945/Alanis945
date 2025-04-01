@@ -1,0 +1,11 @@
+C:\Users\L480\source\repos\PokeAlanis94\bin\Debug\PokeAlanis94.exe.config
+C:\Users\L480\source\repos\PokeAlanis94\bin\Debug\PokeAlanis94.exe
+C:\Users\L480\source\repos\PokeAlanis94\bin\Debug\PokeAlanis94.pdb
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.csproj.AssemblyReference.cache
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.Form1.resources
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.Properties.Resources.resources
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.csproj.GenerateResource.cache
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.csproj.CoreCompileInputs.cache
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.exe
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.pdb
+C:\Users\L480\source\repos\PokeAlanis94\obj\Debug\PokeAlanis94.Form2.resources
