@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+</head>
+<body>
+    <style>
+  body {
+    font-family: sans-serif;
+    text-align: center;
+
+    /* Fondo de pantalla */
+    background-image: url(jurassic.jpg); /*Imagen */
+    background-size: cover;       /* Que la imagen cubra toda la pantalla */
+    background-position: center;  /* Centrar la imagen */
+    background-repeat: no-repeat; /* Que no se repita */
+    background-attachment: fixed; /* Que quede fijo al hacer scroll */
+    color: white;                 /* Texto blanco para que contraste */
+    text-shadow: 1px 1px 4px black; /* Sombra para el texto y se lea mejor */
+  }
+</style>
+
+     <style>
+    /* Estilos generales de la página */
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    /* Contenedor de la galería en forma de grilla flexible */
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* Estilo de las imágenes en miniatura */
+    .galeria img {
+      width: 200px;
+      height: 100px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      transition: transform 0.2s;
+    }
+
+    /* Efecto al pasar el mouse sobre las imágenes */
+    .galeria img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mi Galería</h1>
+
+  <!-- Galería de imágenes con enlaces a la página ver.php -->
+<div class="galeria">
+  <a href="Imagen.php?img=braquio.png"><img src="braquio.png" alt="Braquiosaurio"></a>
+  <a href="Imagen.php?img=Spino.png"><img src="Spino.png" alt="Spinosaurio"></a>
+  <a href="Imagen.php?img=Tirano.png"><img src="Tirano.png" alt="Tiranosaurio"></a>
+  <a href="Imagen.php?img=Tris.png"><img src="Tris.png" alt="Triceratops"></a>
+  <a href="Imagen.php?img=Velos.png"><img src="Velos.png" alt="Velociraptor"></a>
+</div>
+</body>
+</html>
