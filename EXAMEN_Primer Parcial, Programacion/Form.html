@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CineClub</title>
+    <style>
+        /* Estilos */
+        body {
+            background-color: #F2EFE8; /* Fondo */
+            padding: 20px; /* Espacio */
+            font-family: Arial, sans-serif; /* Tipo de Letra */
+            font-weight: bold; /* Negritas */
+        }
+
+        /* Encabezado Logo y Texto */
+        .encabezado {
+            display: flex; /* Logo y Texto en Fila */
+            align-items: center; /* Centra */
+            margin-bottom: 20px; /* Separación */
+            font-family: Georgia, serif; /* Tipo de Letra */
+        }
+
+        /* Imagen Encabezado */
+        .encabezado img {
+            width: 120px; /* Ancho */
+            height: 120px; /* Alto */
+            border-radius: 50%; /* Imagen Circular */
+            object-fit: cover; /* Ajusta la Imagen sin Deformar */
+        }
+
+        /* El Texto Dentro del Encabezado */
+        .bienvenida {
+            margin-left: 20px; /* Espacio Entre Logo y Texto */
+            max-width: 600px; /* Para el Ancho */
+        }
+
+        /* Texto de Bienvenida */
+        .bienvenida p {
+            font-weight: bold; /* Negritas */
+        }
+
+        /* Tabla y Formulario */
+        .contenido {
+            display: flex; /* Tabla y Formulario Lado a Lado */
+            justify-content: flex-start; /* Alineación a la Izquierda */
+            flex-wrap: wrap; /* Pantallas Pequeñas */
+            font-family: Georgia, serif; /* Tipo de Ltra */
+        }
+
+        /* Márgenes para tabla y formulario */
+        .tabla, .formulario {
+            margin: 1%; /* Margen */
+        }
+
+        /* Tabla */
+        table {
+            border-collapse: collapse; /* Quita los Espacios*/
+            width: 100%; /* Usa todo el ancho disponible */
+        }
+
+        /* Celdas de Tabla */
+        th, td {
+            border: 1px solid black; /* Borde Negro */
+            padding: 10px; /* Espacio Interno */
+            text-align: left; /* Texto Alineado a la Izquierda */
+            font-weight: normal; /* Texto Normal */
+            font-family: Georgia, serif; /* Tipo de Letra */
+        }
+
+        /* Encabezados de tabla */
+        th {
+            background-color: #E0DED5; /* Fondo gris para distinguir */
+            font-weight: bold; /* Negrita */
+        }
+
+        /* Título de la Tabla */
+        caption {
+            margin-bottom: 1px; /* Separación del contenido */
+            font-size: 25px; /* Tamaño de Letra*/
+            font-weight: bold; /* Negrita */
+        }
+
+        /* Formulario */
+        .formulario {
+            border: 1px solid black; /* Borde */
+            background-color: #E0DED5; /* Fondo gris claro */
+            padding: 20px; /* Espaciado Interno */
+            width: 330px; /* Ancho */
+            font-weight: normal; /* Texto Normal */
+        }
+
+        /* Etiquetas Dentro de los Campos */
+        label {
+            display: block; /* Etiqueta */
+            margin-top: 10px; /* Espacio superior */
+            font-weight: bold; /* Negrita */
+        }
+
+        /* Campos de entrada y selección */
+        input, select {
+            width: 100%; /* Ancho  */
+            padding: 5px; /* Espaciado interno */
+            margin-top: 5px; /* Separación de etiqueta */
+            border: 1px solid #000; /* Borde Negro*/
+            font-weight: normal; /* Texto Normal */
+            font-family: Georgia, serif; /* Fuente Consistente */
+        }
+
+        /* CheckBox y su etiqueta */
+        .checkbox-group {
+            margin-top: 15px; /* Separación Superior */
+            display: flex; /* En Línea */
+            align-items: center; /* Centrado vertical */
+        }
+
+        /* Tamaño y margen del CheckBox */
+        .checkbox-group input {
+            width: 16px; /* Tamaño CheckBox */
+            height: 16px;
+            margin-right: 10px; /* Separación con etiqueta */
+        }
+
+        /* Botón */
+        button {
+            margin-top: 15px; /* Separación Superior */
+            width: 100%; /* Ancho */
+            padding: 10px; /* Espacio interno */
+            font-size: 20px; /* Tamaño del texto */
+            font-weight: bold; /* Negrita */
+            font-family: Georgia, serif; /* Tipo de Letra */
+            background-color: #F2EFE8; /* Fondo claro */
+            color: black; /* Texto negro */
+            cursor: pointer; /* Cambia cursor al pasar */
+        }
+
+        /* Instrucciones (no usada actualmente) */
+        .instruccion {
+            margin-top: 10px; /* Espacio superior */
+            font-weight: bold; /* Negrita */
+            font-family: Georgia, serif; /*Tipo de Letra*/
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado con Logo y Texto -->
+    <div class="encabezado">
+        <img src="CineClub.png" alt="Logo de CineClub" />
+        <div class="bienvenida">
+            <p>
+                Bienvenido a CineClub, tu espacio dedicado a la mejor experiencia cinematográfica.
+                Explora nuestras funciones, selecciona tu película favorita y aprovecha descuentos especiales según tu perfil.
+                Estamos aquí para que disfrutes al máximo cada momento en el cine.
+            </p>
+        </div>
+    </div>
+
+    <!-- Tabla y Formulario -->
+    <div class="contenido">
+
+        <!-- Tabla con Precios y Descuentos -->
+        <div class="tabla">
+            <table>
+                <caption>Precios y Descuentos</caption>
+                <tr>
+                    <th colspan="2">Funciones</th>
+                </tr>
+                <tr><td>Función 2D</td><td>$40 MXN</td></tr>  
+                <tr><td>Función 3D</td><td>$60 MXN</td></tr>
+                <tr><td>Función IMAX</td><td>$85 MXN</td></tr>
+                <tr><td>Sala VIP</td><td>$105 MXN</td></tr>
+
+                <tr>
+                    <th colspan="2">Descuentos</th>
+                </tr>
+                <tr><td>General</td><td>Sin descuento</td></tr>
+                <tr><td>Estudiante con Credencial</td><td>15%</td></tr>
+                <tr><td>Niños (<=12)</td><td>20%</td></tr>
+                <tr><td>Adultos Mayores (>=65)</td><td>25%</td></tr>
+            </table>
+        </div>
+
+<!-- Formulario para Crear Tiket -->
+<form class="formulario" action="Tiket.php" method="POST">
+
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+    <img src="CineClub.png" alt="Logo" style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-right: 15px;" />
+    <div class="TextoForm" style="text-align: left;">
+        <p style="margin: 0; font-weight: bold">
+            ¡Bienvenido a CineClub! Por favor, completa la siguiente información para generar tu ticket. Tu experiencia comienza aquí.
+        </p>
+    </div>
+    </div>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" />
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" placeholder="Edad" />
+
+    <label for="funcion">Tipo de función:</label>
+    <select id="funcion" name="funcion">
+        <option value="" disabled selected>Selecciona una opción</option>
+        <option value="2D">Función 2D</option>
+        <option value="3D">Función 3D</option>
+        <option value="IMAX">Función IMAX</option>
+        <option value="VIP">Sala VIP</option>
+    </select>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="credencial" name="credencial" />
+        <label for="credencial">Soy estudiante (Con credencial vigente)</label>
+    </div>
+
+    <button type="submit">Generar Ticket</button>
+</form>
+</body>
+</html>
