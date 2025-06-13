@@ -1,0 +1,19 @@
+/* Texto normal con nombre de color */
+p {
+    color: blue; /* AZUL */
+}
+
+/* Texto con color hexadecimal */
+#colorHexa {
+    color: #ff0000; /* ROJO en hexadecimal */
+}
+
+/* Texto con color RGB */
+#colorRGB {
+    color: rgb(0, 255, 0); /* VERDE en RGB */
+}
+
+/* Texto con color HSL */
+#colorHSL {
+    color: hsl(39, 100%, 50%); /* NARANJA en HSL */
+}
