@@ -1,0 +1,56 @@
+/* Alineaciones */
+#left {
+    text-align: left;
+}
+#right {
+    text-align: right;
+}
+#center {
+    text-align: center;
+}
+#justify {
+    text-align: justify;
+}
+
+/* Sangría */
+#texto-con-sangria {
+    text-indent: 30px;
+}
+
+/* Decoración del texto */
+#underline {
+    text-decoration: underline;
+}
+#overline {
+    text-decoration: overline;
+}
+#line-through {
+    text-decoration: line-through;
+}
+
+/* Transformación del texto */
+#capitalize {
+    text-transform: capitalize;
+}
+#uppercase {
+    text-transform: uppercase;
+}
+#lowercase {
+    text-transform: lowercase;
+}
+
+/* Interlineado */
+#interlineado {
+    line-height: 1.5;
+}
+#interlineado2 {
+    line-height: 2;
+}
+
+/* Sombra de texto */
+#sombra {
+    text-shadow: 2px 2px 5px gray;
+}
+#multiple {
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 green;
+}
