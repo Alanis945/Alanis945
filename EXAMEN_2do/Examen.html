@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+       /* Fondo Gris */
+       body {
+            background-color: gray; /* Color de Fondo */
+            font-family: Arial, Helvetica, sans-serif; /* Arial */
+            color: black; /* Color del texto */
+        }
+
+        /* Cuadro blanco centrado */
+        .contenedor {
+            background-color: white; /* Color de Fondo */
+            width: 500px; /* Ancho del Cuadro*/
+            margin: 50px auto; /* Espacio Entre el Cuadro para centrar */
+            padding: 20px; /* Espacio entre Columas */
+        }
+
+        /* Título del formulario */
+        h2 {
+            text-align: center; /* Centra el Texto del Título */
+            font-weight: bold; /* Pone el Texto en Negritas */
+        }
+
+        /* Estilo para etiquetas y campos */
+        label {
+            display: block; /* que Ocupe todo el Espacio */
+            margin-top: 10px; /* El Espacio entre Labels */
+            font-weight: bold; /* Texto en negrita */
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%; /* Que ocupe Todo El Ancho */
+            padding: 5px; /* Espacio entre los Labes */
+            margin-top: 5px; /* Un Pequeno espacio entre los Labels */
+        }
+
+        /* Botón */
+        input[type="submit"] {
+            margin-top: 20px; /* Espacio arriba del botón */
+            width: 100%; /* Ocupa Todo el Ancho */
+            padding: 10px; /* El Espacio dentro del Boton*/
+            background-color: gray; /* Fondo del botón */
+            color: white; /* Texto del botón */
+            font-weight: bold; /* Texto en negrita */
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(95, 95, 95);
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedor">
+    <h2>Formulario de Calificaciones</h2>
+
+    <form action="Examen.php" method="POST">
+        <!-- Nombre -->
+        <label>Nombre del Alumno:</label>
+        <input type="text" name="Nombre" required>
+
+        <!-- Materia -->
+        <label>Materia:</label>
+        <select name="Materia" required>
+            <option value="">-- Elige una materia --</option>
+            <option value="Electrónica Digital">Electrónica Digital</option>
+            <option value="Seguridad Industrial">Seguridad Industrial</option>
+            <option value="Programación V">Programación V</option>
+            <option value="Neumática e Hidráulica">Neumática e Hidráulica</option>
+            <option value="Habilidades en el Idioma Inglés I">Habilidades en el Idioma Inglés I</option>
+        </select>
+
+        <!-- Género -->
+        <label>Género:</label>
+        <input type="radio" name="Genero" value="Hombre" required> Hombre
+        <input type="radio" name="Genero" value="Mujer"> Mujer
+
+        <!-- Calificaciones -->
+        <label>Primer Parcial:</label>
+        <input type="number" name="Cal1" min="0" max="100" required>
+
+        <label>Segundo Parcial:</label>
+        <input type="number" name="Cal2" min="0" max="100" required>
+
+        <label>Tercer Parcial:</label>
+        <input type="number" name="Cal3" min="0" max="100" required>
+
+        <!-- Botón -->
+        <input type="submit" value="Calcular Calificación Final">
+    </form>
+</div>
+</body>
+</html>
