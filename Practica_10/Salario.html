@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="salario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>INGRESA LOS DATOS</h1>
+        <form action="salario.php" method="POST">
+            <label>Empleado:</label>
+            <input type="text" name="empleado" required>
+
+            <label>Horas trabajadas:</label>
+            <input type="number" name="horas" required>
+
+            <label>Categoría:</label>
+            <select name="categoria" required>
+                <option value="jefe">Jefe</option>
+                <option value="administrativo">Administrativo</option>
+                <option value="operador">Operador</option>
+                <option value="practicante">Practicante</option>
+            </select>
+
+            <input type="submit" value="PROCESAR">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;        /* Fuente Arial */
+    background-color: gray;                /* Fondo gris */
+    color: black;                          /* Color del Texto en Negro */
+    display: flex;                         /* Alinear el Contenido */
+    justify-content: center;              /* Centra Horizontalmente el Contenido */
+    align-items: center;                  /* Centra Verticalmente el Contenido */
+    height: 100vh;                         /* Altura */
+}
+
+.contenedor {
+    background-color: white;              /* Fondo blanco para el cuadro */
+    padding: 20px;                         /* Espacio en todos los lados */
+    width: 300px;                          /* Ancho */
+    text-align: left;                      /* Alineación del texto a la Izquierda */
+    font-weight: bold;                     /* Negritas */
+}
+
+/* Títulos */
+h1 {
+    text-align: center;                   /* Centra el título Horizontalmente */
+    color: black;                         /* Color del texto en Negro */
+    font-weight: bold;                    /* Título en Negritas */
+    margin-bottom: 20px;                  /* Espacio Debajo del Título */
+}
+
+label {
+    display: block;                       /* Hace que cada Label esté en una Línea Completa */
+    margin-top: 10px;                     /* Espacio Entre cada Label */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;                          /* Ancho */
+    padding: 5px;                         /* Espacio interno */
+    margin-top: 5px;                      /* Espacio Arriba del Campo */
+    margin-bottom: 10px;                  /* Espacio Debajo del Campo */
+    font-family: Arial;                   /* Fuente Arial */
+    font-weight: bold;                    /* Texto Dentro del Campo en Negritas */
+}
+
+/* Botón */
+input[type="submit"] {
+    background-color: black;              /* Fondo Negro para el Botón */
+    color: white;                         /* Texto Blanco */
+    padding: 10px;                        /* Espacio Interno en el Botón */
+    width: 100%;                          /* Ancho del Boton */
+    font-weight: bold;                    /* Negritas */
+}
+
+p {
+    margin: 10px 0;                       /* Margen Arriba y Abajo  */
+    font-weight: bold;                    /* Negritas */
+}
