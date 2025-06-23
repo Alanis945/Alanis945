@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Datos</title>
+    <link rel="stylesheet" href="Radio Buttons.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Ingresa tus Datos</h1>
+        <form action="Radio Buttons.php" method="POST">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required>
+
+            <label>Edad:</label>
+            <input type="number" name="edad" required>
+
+            <label>Género:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="genero" value="Masculino" required> Masculino</label>
+                <label><input type="radio" name="genero" value="Femenino"> Femenino</label>
+                <label><input type="radio" name="genero" value="Otro"> Otro</label>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

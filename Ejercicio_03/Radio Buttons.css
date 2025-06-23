@@ -1,0 +1,72 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Cuadro blanco centrado */
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    font-weight: bold;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas generales */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de texto y número */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Botón de enviar o volver */
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Estilo de los párrafos del resultado */
+p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Estilo para radio buttons en grupo */
+.radio-group {
+    margin-top: 5px;
+}
+
+.radio-group label {
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+}
